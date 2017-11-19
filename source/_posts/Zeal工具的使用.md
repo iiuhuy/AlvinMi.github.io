@@ -31,4 +31,5 @@ Zeal 和 Dash 在各自的官网都有详细的安装和使用说明！安转过
 
 在官方上有一份很好的文档指导你来构建自己的 docset [Dash's instructions for generating docsets.](https://kapeli.com/docsets)。
 
+>其他工具可以参考 [My computer needs software usually](https://alvinmi.github.io/2017/08/06/My-computer-needs-software-usually/)
 >End!

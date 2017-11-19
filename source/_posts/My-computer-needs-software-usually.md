@@ -4,6 +4,8 @@ date: 2017-08-06 15:20:08
 tags: 总结
 ---
 
+> **本文阅读打开需要 18.88 分钟！**
+> 
 归纳一下我日常安装的软件。
 # 01 Windows
 * [QQ](https://im.qq.com/index.shtml)
