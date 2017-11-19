@@ -27,6 +27,10 @@ Zeal 和 Dash 在各自的官网都有详细的安装和使用说明！安转过
 
 也可以选择 `Add feed` ,  这个功能目前还没用过。
 
+安装完成后如下图
+
+![Python](https://github.com/AlvinMi/Note/blob/master/01_Blog/Picture/截图/Zeal截图.png)
+
 # 04 创建自己的文档
 
 在官方上有一份很好的文档指导你来构建自己的 docset [Dash's instructions for generating docsets.](https://kapeli.com/docsets)。
