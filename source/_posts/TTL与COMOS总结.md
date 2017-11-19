@@ -54,5 +54,4 @@ CMOS 电路是电压控制器件，输入电阻极大，对于干扰信号十分
 	
 输出高电平>2.4V,输出低电平<0.4V。在室温下，一般输出高电平是3.5V，输出低电平是0.2V。最小输入高电平和低电平：输入高电平>=2.0V，输入低电平<=0.8V，噪声容限是0.4V。
 > 转自 [CSDN Finding_Nemo http://blog.csdn.net/nemol1990/article/details/8956339](http://blog.csdn.net/nemol1990/article/details/8956339)
-
 更多的也可以参考他的 [模拟电路学习笔记](http://blog.csdn.net/nemol1990/article/details/8956039) 和 [电子电路学习笔记](http://blog.csdn.net/nemol1990/article/details/8956022)！
