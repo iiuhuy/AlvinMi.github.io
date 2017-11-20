@@ -42,10 +42,10 @@ tags: 总结
 * [Internet Download Manager](http://www.internetdownloadmanager.com/)
 * Kindle Mate (kindle 电子书的管理工具).。自行下载。
 * 虚拟机( [VMware Workstation](https://www.vmware.com/cn.html)) 学习 Linux 时候, 然后再 Windows 使用远程登录, 就很方便了。
-* [SecureCRT v8.x ](http://download.csdn.net/download/qq_31546869/9937011) 。 SecureCRT v8.x 安装包、注册机、破解教程、破解版本! CSDN, 下载需要积分！没有积分可以加我 QQ。
+* [SecureCRT v8.x ](http://download.csdn.net/download/qq_31546869/9937011) 。 SecureCRT v8.x 安装包、注册机、破解教程、破解版本! CSDN, 下载需要积分！没有积分可以加我 QQ。还有 [PuTTY](https://github.com/larryli/PuTTY/releases)。两个工具一样任选。
 * [UltraEdit](http://pan.baidu.com/s/1mhI214G)
 * [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-* [Zeal 工具]() 。可以参考我博客 [Zeal 工具的使用](https://alvinmi.github.io/2017/11/14/Zeal工具的使用/)
+* [Zeal 工具](https://zealdocs.org/download.html) 。可以参考我博客 [Zeal 工具的使用](https://alvinmi.github.io/2017/11/14/Zeal工具的使用/)
 
 > 持续更新。。。 最新更新日期 2017.11.19 !   我的QQ： 854328319
 
@@ -59,11 +59,11 @@ tags: 总结
 
 * [Google Chrome](http://www.google.cn/chrome/browser/desktop/index.html) 毫无疑问! 很多插件和书签真的很好用。当然 [Firefox](http://www.firefox.com.cn/) 也是个不错的选择。 原谅我爱上了 Chrome。
 
-* [***GoldenDict*** 翻译工具(类似于 Windows 下的有道)
+* [**GoldenDict**翻译工具](http://www.goldendict.org)。类似于 Windows 下的有道！和 Linux 下安装软件的方法一样。
 
-* QQ ! Linux 下安装 QQ 可以参考 [知行合一](http://blog.csdn.net/heyijia0327/article/details/51568475)的 CSDN 博客！](http://goldendict.org/)
+* QQ ! Linux 下安装 QQ 可以参考 [知行合一](http://blog.csdn.net/heyijia0327/article/details/51568475)的 CSDN 博客！]
 
-* [Playonlinux](https://www.playonlinux.com/en/download.html)
+* [Playonlinux](https://www.playonlinux.com/en/download.html)。使用 Python 写成的图形化前端，主要用来辅助 Wine 在 Linux 中安装面向 Windows 平台的程序和游戏。安装方法和 Linux 下安转软件的方法一样！
 
 * [搜狗输入法](https://pinyin.sogou.com/linux/?r=pinyin)  Linux 下的搜狗输入法！
 
@@ -71,11 +71,9 @@ tags: 总结
 
 * Wechart。 现在也有了 [web 版](https://web.wechat.com) 的微信！Ubuntu 下可以参考 [张瑞雷老师博客!](http://blog.csdn.net/zhangrelay/article/details/52398037#comments)
 
-* [Zeal 工具]() 。可以参考我博客 [Zeal 工具的使用](https://alvinmi.github.io/2017/11/14/Zeal工具的使用/)
+* [Zeal 工具](https://zealdocs.org/download.html) 。可以参考我博客 [Zeal 工具的使用](https://alvinmi.github.io/2017/11/14/Zeal工具的使用/)。 我参考了 [张瑞雷老师的博客](http://blog.csdn.net/zhangrelay/article/details/78474756)
 
   ​
-
-
 
 同时推荐一个 GitHub 上的开源项目, [Awesome-Linux-Software](https://github.com/LewisVo/Awesome-Linux-Software) 记录了许多关于 Linux 上的软件。
 
