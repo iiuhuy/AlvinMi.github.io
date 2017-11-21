@@ -12,7 +12,7 @@ Zeal 是受 Dash 启发的简单离线文档浏览器。 因为 Zeal 是跨平�
 * Zeal 官网 [https://zealdocs.org/](https://zealdocs.org/)
 * Dash 官网 [https://kapeli.com/dash](https://kapeli.com/dash)
 
-# 02 下载安转 
+# 02 下载安转
 
 在官网下载即可。 支持 Windows、Linux、macOS(Dash)。 实际上就是支持 Windows 和 Linux。
 
@@ -22,14 +22,14 @@ Zeal 和 Dash 在各自的官网都有详细的安装和使用说明！安转过
 
 在 Available 中已经有很丰富的文档了。
 
-# 03 怎么使用?
+# 03 怎么使用
 安装 Zeal 后，您需要下载 docset。转到 ***Tools -> Docsets***，选择你想要的，然后点击 `Download` 按钮。
 
 也可以选择 `Add feed` ,  这个功能目前还没用过。
 
 安装完成后如下图
 
-![Python](https://github.com/AlvinMi/Note/blob/master/01_Blog/Picture/截图/Zeal截图.png)
+![Python](http://oygqszutp.bkt.clouddn.com/alvinmi/Zeal%E6%88%AA%E5%9B%BE.png)
 
 # 04 创建自己的文档
 
