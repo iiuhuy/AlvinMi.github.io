@@ -5,12 +5,13 @@ tags: 总结
 ---
 
 > **本文阅读打开需要 18.88 分钟！**
-> 
+>
 归纳一下我日常安装的软件。
 # 01 Windows
 * [QQ](https://im.qq.com/index.shtml)
 * [Wechart](http://weixin.qq.com) 。 现在也有了 [web 版](https://web.wechat.com) 的微信！
 * [Google Chrome](http://www.google.cn/chrome/browser/desktop/index.html)  需要科学上网！( Chrome 可以装 Chrome 插件例如 Secure Shell、VNC (远程界面登录) )
+* [BeyondCompare](http://www.beyondcompare.cc/xiazai.html)  文件对比工具。支持文件夹对比、文件夹同步、文件对比、表格对比、16进制对比、Mp3对比、图片对比等基础功能。
 * [搜狗输入法](https://pinyin.sogou.com/)
 * [软件管家](http://soft.qq.com)
 * [为知笔记(有时候笔记用)](http://www.wiz.cn/download.html)  跨平台！
@@ -20,17 +21,17 @@ tags: 总结
 * [Notepad++](https://notepad-plus-plus.org)
 * [SublimeText 3](http://www.sublimetext.com/3)（一款编辑器、或者 Atom）
 * [Atom 编辑工具](https://atom.io/)
-* [XMind 思维导图](http://www.dayanzai.me/?s=Xmind) (链接可以下载该软件) 
+* [XMind 思维导图](http://www.dayanzai.me/?s=Xmind) (链接可以下载该软件)
 * Photoshop ( P 图什么的可能会装个)
 * [网易云音乐](https://music.163.com/#/download)
-* 猎豹免费 WIFI 
+* 猎豹免费 WIFI
 * AcrobatReader DC 或者 SmartPDF 或者 福昕阅读
 * [Markdown Pad 2](http://www.markdownpad.com/download.html) 编辑器 或者 [Typora](https://www.typora.io) 拉倒网页底下下载！
 * 网易有道词典
-* Eclise IDE 
+* Eclise IDE
 * [Steam](http://store.steampowered.com) -> Wallpaper Engine (玩游戏可以装)
 * [Anaconda](https://www.anaconda.com) (Python 学习环境)。 如果下载过慢, 或者不能下载可以在 [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/) 进行下载。速度还行!
-* [CodeBlocks](http://www.codeblocks.org) 
+* [CodeBlocks](http://www.codeblocks.org)
 * Altium Designer （画 PCB）
 * [git 工具](https://git-scm.com/downloads), 公司用 SVN, 所以多装个 [SVN 工具](https://tortoisesvn.net/downloads.html) 使用教程可以网上搜索。
 * [Foxmail](http://www.foxmail.com) (接收邮件用)。 支持 Windows 和 MAC 。
@@ -38,6 +39,7 @@ tags: 总结
 * Everthing( Windows 下查找文件神器) 自行网上下载。
 * MDK( ARM 开发集成工具即 keil) 自行下载。关于 keil 的配置颜色可以在[这里下载](https://github.com/AlvinMi/Note/blob/master/05_开发环境相关/MKD_Keil相关/keil5_MDK配色方案/Keil5%20MDK%20很好的颜色配置.zip)！
 * IAR 开发环境。 自行下载。
+* [QSunSync](https://github.com/qiniu/QSunSync)  七牛云文件同步图形化工具－Windows版本.
 * [Source Insight 3.5](http://pan.baidu.com/s/1geA5fVX)（ 4.0 也出来好久了）[Source Insight 4.0](http://download.csdn.net/download/qq_31546869/10037553)可以在这里下载(包含了安装教程和配色主题)
 * [Internet Download Manager](http://www.internetdownloadmanager.com/)
 * Kindle Mate (kindle 电子书的管理工具).。自行下载。
@@ -81,7 +83,7 @@ tags: 总结
 
 # 03 MacOS
 
-等我用上 MAC 会记录！ ^_^ 
+等我用上 MAC 会记录！ ^_^
 
 可以看看 GitHub 上面的 [awesome-mac 仓库](https://github.com/jaywcjlove/awesome-mac) ！
 
