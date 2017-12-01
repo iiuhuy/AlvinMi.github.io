@@ -24,7 +24,7 @@ tags: 总结
 
 * [CCleaner](https://www.piriform.com/download) (清除注册表)
 
-* [CodeBlocks](http://www.codeblocks.org)
+* [CodeBlocks](http://www.codeblocks.org/downloads/26)
 
 * [DisplayFusion](https://www.displayfusion.com/Download/)     一个拓展显示的管理工具。
 
@@ -47,6 +47,8 @@ tags: 总结
 * 猎豹免费 WIFI
 
 * Kindle Mate (kindle 电子书的管理工具).。自行下载。
+
+* [KiCad](http://kicad-pcb.org)  一个跨平台的 PCB Layerout 软件。 支持 Windows、Linux、MacOS。
 
 * [Notepad++](https://notepad-plus-plus.org)
 
@@ -110,10 +112,15 @@ tags: 总结
 
 * [**GoldenDict**翻译工具](http://www.goldendict.org)。类似于 Windows 下的有道！和 Linux 下安装软件的方法一样。
 
+* [KiCad](http://kicad-pcb.org)  一个跨平台的 PCB Layerout 软件。 支持 Windows、Linux、MacOS。
+
 * [Playonlinux](https://www.playonlinux.com/en/download.html)。使用 Python 写成的图形化前端，主要用来辅助 Wine 在 Linux 中安装面向 Windows 平台的程序和游戏。安装方法和 Linux 下安转软件的方法一样！
+
 * QQ ! Linux 下安装 QQ 可以参考 [知行合一](http://blog.csdn.net/heyijia0327/article/details/51568475)的 CSDN 博客！]
 
 * [搜狗输入法](https://pinyin.sogou.com/linux/?r=pinyin)  Linux 下的搜狗输入法！
+
+* [terminator]()
 
 * [为知笔记](http://www.wiz.cn/download.html)
 
@@ -129,7 +136,10 @@ tags: 总结
 
 # 03 MacOS
 
-等我用上 MAC 会记录！ ^_^
+等我用上 Mac 会记录！当然如果看到有相关的软件也会推荐。 ^_^
+
+* [KiCad](http://kicad-pcb.org)  一个跨平台的 PCB Layerout 软件。 支持 Windows、Linux、MacOS。
+
 
 可以看看 GitHub 上面的 [awesome-mac 仓库](https://github.com/jaywcjlove/awesome-mac) ！
 
