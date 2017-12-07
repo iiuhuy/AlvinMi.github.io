@@ -52,3 +52,17 @@ notebook 的界面包括以下几部分：
 * [06、Notebook Gallery](http://nb.bianp.net/sort/views/)
 
 >jupyter notebook。
+
+
+# 03 Jupyter Notebook 修改一打开文件夹目录
+> 将 Jupyter Notebook 打开的目录修改为自己的的目录
+
+* 打开 `Anaconda Prompt` 类似窗口命令的窗口。
+
+* 输入命令 `jupyter notebook --generate-config`
+
+* 打开 `C:\Users\Administrator\.jupyterjupyter_notebook_config.py` 修改 `#c.NotebookApp.notebook_dir = ''`为 `c.NotebookApp.notebook_dir =  u'E:\\4_Person\\08、JupyterNotebook'`。(目录改为你自己的目录)。
+
+* 开始菜单找到 `jupyter notebook` 快捷键，右键 -> 属性 -> 打开文件所在位置，找打快捷方式在文件中的位置，右键 -> 属性 -> 目标，去掉最后的 `%USERPROFILE%`。 现在点击快捷方式就可以直接在你想要默认打开的文件夹启动了。
+
+> 美滋滋!
