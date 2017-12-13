@@ -80,6 +80,8 @@ tags: 总结
 
 * [搜狗输入法](https://pinyin.sogou.com/)
 
+* [Thunder U享版 v3.0.1.96 Lite V4](http://download.csdn.net/download/qq_31546869/10151037)  迅雷 U 享版, 避免广告。 纯净绿色版。
+
 * [UltraEdit](http://pan.baidu.com/s/1mhI214G)
 
 * [Wechart](http://weixin.qq.com) 。 现在也有了 [web 版](https://web.wechat.com) 的微信！
