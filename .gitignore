@@ -1,0 +1,11 @@
+_site
+.sass-cache
+.jekyll-metadata
+
+_theme/
+
+*.iml
+.idea/
+
+_book/
+node_modules/
