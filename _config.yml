@@ -4,34 +4,35 @@ markdown: redcarpet
 
 # 作者信息
 author: 
-  name: 吕立青
-  email: lv460051518@gmail.com
-  link: http://www.jimmylv.info
-  weibo: http://weibo.com/liqing215
-  github: http://github.com/JimmyLv
-  zhihu: http://www.zhihu.com/people/lu-li-qing-90
+  name: 余辉
+  email: alvin.mi0620@gmail.com
+  link: https://alvinmi.github.io
+  # weibo: http://weibo.com/
+  github: http://github.com/AlvinMi
+  zhihu: https://www.zhihu.com/people/alvinmi/
 
 # 站点信息
-title: 吕立青的博客
-description: My personal note-blog.
-url: http://jimmylv.info
+title: 余辉的博客
+description: My personal blog.
+url: https://alvinmi.github.io
 rss_url: /pages/atom.xml
 
-# gavatar头像及Favicon
+# gavatar 头像及 Favicon
 gavatar: /public/img/gavatar.jpg
 favicon: /public/img/favicon.ico
 
 # google analytics 设置
 ga:
-  id: UA-55089304-1 
-  url: http://blog.jimmylv.info
+  # id: UA-55089304-1 
+  url: https://alvinmi.github.io
 
 # disqus 设置
 disqus:
-  shortname: gotoshare
+  # comments: true,
+  shortname: https-alvinmi-github-io
 
 # 主题设置，自动激活某个标签
-active: 编程
+active: 技术
 
 # 首页除了最新文章外显示分类
 cates: 
