@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World
-category: Blog
+category: 随笔
 tags: helloword
 published: true
 ---

@@ -1,6 +1,6 @@
 # This Project Is Deprecated
 
-## 使用 Rakefile 自动生成文章格式
+## 使用 [ls](https://ruby.github.io/rake/) 自动生成文章格式
 
 ```shell
 rake post title="A Title" [category="category"] [tags=[tag1,tag2]] [description="description"]

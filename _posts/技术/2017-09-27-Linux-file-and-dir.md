@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ubuntu系统快捷键和文件处理命令
-category: 编程
+title: Ubuntu 系统快捷键和文件处理命令
+category: 技术
 tags: Ubuntu
 published: true
 ---
