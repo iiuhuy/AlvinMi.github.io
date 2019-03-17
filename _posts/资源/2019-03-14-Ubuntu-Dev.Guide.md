@@ -17,10 +17,11 @@ published: true
 
 - 安装 Google Chrome
 - 安装 [SSR](https://github.com/shadowsocks/shadowsocks-qt5) 客户端
-- node.js
+- node.js, 国内切换淘宝源。
 - WPS，Linux 下的 WPS
 - [Jekyll on Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/)
 - PicGo, 使用 GitHub 做图床
+- Shutter, 截图工具，有其他好用的截图工具，希望看到的小伙伴留言告诉一下。
 -
 - 安装 [Slack](https://get.slack.help/hc/en-us/articles/212924728-Download-Slack-for-Linux-beta)、[Telegram]()
 
