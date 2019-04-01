@@ -1,11 +1,13 @@
 ---
 layout: post
-title: 技术问答
+title: Developer-Notes
 category: 资源
-tags: "资源 前端"
+tags: "资源 前端 idea"
 keywords: 资源,工具,积累
 published: true
 ---
+
+[个人开发笔记总结！](https://alvinmi.github.io/Developer-notes/)
 
 # 前端
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <model-tag> 自定义 HTML 元素显示 3D 模型
+title: model-tag 自定义 HTML 元素显示 3D 模型
 category: 技术
 tags: "3D gltf obj stl three.js"
 keywords: 3D gltf obj stl three
