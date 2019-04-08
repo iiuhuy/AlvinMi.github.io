@@ -2,13 +2,14 @@
 layout: post
 title: WordPress 建站
 category: 技术
-# date: 2017-11-28 00:05:47
 tags: WordPress
 keywords: WordPress
 published: true
 ---
 
 # WordPress 建站
+
+很早之前只玩过 WordPress 建站，但是却没有使用 Docker 安装过, 其实也很简单。
 
 <iframe scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.704fca4914c9b90d7a9d41abcaa19933.html?origin=https%3A%2F%2Fcolorsnapper.com&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings" title="Twitter settings iframe" style="display: none;"></iframe>
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Ubuntu 18.04 Dev.Guide
+title: Ubuntu Dev.Guide
 category: 资源
 tags: 工具
-keywords: 资源,工具,Ubunt 18.04-dev-Guide
+keywords: 资源,工具,Ubunt
 published: true
 ---
 
-# Ubuntu 18.04 Dev.Guide
+# Ubuntu Dev.Guide
 
 > 抛弃了 Windows 后，就一直使用 Ubuntu 系统，重装了 N 次了，这里还是需要写一篇总结。
 
@@ -43,9 +43,13 @@ $ git config --global user.email "alvin.mi0620@gmail.com"
 
 ### 配置 Python 环境
 
+推荐使用 Anaconda 安装，包比较完善！使用虚拟环境开发。
+
 ### 配置 VSCode
 
 - 1.安装 `setting sync` 插件，同步自己的 vscode 插件和配置.
 - 2.同步插件，需要 [github token](https://github.com/settings/tokens)，gist id `289dd0d76ca746fc9dedb9f530569ffd` 就可以了，这个 id 是我自己本地的配置。
 
 ### Ruby 环境
+
+最终更新 - by 2019-03-19...
