@@ -1,0 +1,188 @@
+# WebGL
+
+WebGL 也是 HTML5 的一部分把，可以在 canvas 中渲染三维场景。
+
+## 实例
+
+WebGL 很酷，源自一些创作，示例 demo 如下：
+
+- [寻找奥兹国](http://www.findyourwaytooz.com/)
+- [赛车游戏](http://triggerrally.com/)
+- [Ashes](https://but0n.github.io/Ashes/)
+- [Nucleal](http://nucleal.com/)
+- [model-viewer-tester](https://model-viewer-tester.glitch.me/)
+- [mrdoob.com](https://mrdoob.com/)
+- [discoverthreejs](https://discoverthreejs.com/)
+- [40075](https://40075.world/)
+- [rainbowhunt](https://rainbowhunt.me/)
+- [WebGL Samples](https://webglsamples.org/)
+
+一些流行的库：
+
+- x3dom
+- stack.gl
+- three.js
+- A-Frame
+- MapboxGL
+
+## 和 Canvas 的区别
+
+WebGL 同 Canvas 一样，需要获取绘图上下文：
+
+```js
+var gl = canvas.getContext("webgl"); // 或者 expermental-webgl
+```
+
+Canvas 画一个矩形是很简单的，但是 WebGL 就不一样了。
+
+如下：
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>02HelloCanvas</title>
+</head>
+
+<body onload="main()">
+  <!-- 顶点着色器 -->
+  <script id="vertex" type="x-shader">
+    attribute vec2 aVertexPosition;
+      void main() {
+        gl_Position = vec4(aVertexPosition, 0.0, 1.0);
+      }
+    </script>
+  <!-- 片段着色器 -->
+  <script id="fragment" type="x-shader">
+    #ifdef GL_ES
+        precision highp float;
+      #endif
+      uniform vec4 uColor;
+      void main() {
+        gl_FragColor = uColor;
+      }
+    </script>
+
+  <canvas id="canvas"></canvas>
+  <script>
+    const canvas = document.getElementById('canvas')
+
+    // 获取 webgl 上下文
+    const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl')
+    gl.clearColor(1, 1, 1, 1)
+    gl.clear(gl.COLOR_BUFFER_BIT)
+    gl.viewport(0, 0, canvas.width, canvas.height)
+
+    const v = document.getElementById('vertex').firstChild.nodeValue
+    const f = document.getElementById('fragment').firstChild.nodeValue
+    const vs = gl.createShader(gl.VERTEX_SHADER)
+    gl.shaderSource(vs, v)
+    gl.compileShader(vs)
+
+    const fs = gl.createShader(gl.FRAGMENT_SHADER)
+    gl.shaderSource(fs, f)
+    gl.compileShader(fs)
+
+    const program = gl.createProgram()
+    gl.attachShader(program, vs)
+    gl.attachShader(program, fs)
+    gl.linkProgram(program)
+    gl.useProgram(program)
+    program.uColor = gl.getUniformLocation(program, 'uColor')
+    program.aVertexPosition = gl.getAttribLocation(program, 'aVertexPosition')
+    gl.enableVertexAttribArray(program.aVertexPosition)
+    gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer())
+    gl.vertexAttribPointer(program.aVertexPosition, 2, gl.FLOAT, false, 0, 0)
+
+    gl.uniform4f(program.uColor, 0.533, 0.533, 0.533, 1)
+
+    const x = 10
+    const y = 20
+    const width = 150
+    const height = 100
+    const x1 = -1 + x / canvas.width * 2
+    const x2 = -1 + (x + width) / canvas.width * 2
+    const y1 = 1 - y / canvas.height * 2
+    const y2 = 1 - (y + height) / canvas.height * 2
+    const vertices = new Float32Array([
+      x1, y1,
+      x2, y1,
+      x1, y2,
+      x1, y2,
+      x2, y1,
+      x2, y2,
+    ])
+
+    gl.bufferData(gl.ARRAY_BUFFER, vertices, gl.STATIC_DRAW)
+    gl.drawArrays(gl.TRIANGLES, 0, 6)
+  </script>
+</body>
+
+</html>
+```
+
+效果就是画出这样一个灰色矩形：
+
+<img src="https://raw.githubusercontent.com/AlvinMi/2019-Pic/master/2019/20190423231702.png"/>
+
+### 视口与坐标
+
+视口与坐标: 绘图之前需要定义 WebGL 的 viewport，是相对于 canvas 元素。
+
+- 1.视口坐标与网页坐标不一样，视口坐标原点是在 canvas 元素的左下角，x,y 轴分别是向右和向上；
+- 2.视口内部的坐标系于定义视口的坐标系也是不一样的。在视口内部，坐标原点(0,0)是视口的中心点，因此视口左下角坐标为(-1,-1), 而右上角坐标为(1,1)。
+
+两种不同的坐标系统，以及如何在三维入刑中使用？
+
+WebGL 坐标系统，笛卡尔坐标系，观察者的眼睛位于原点(0.0, 0.0, 0.0),默认使用右手坐标系。现在认为右手坐标系，有专讲 **WebGL/OpenGL：左手坐标系还是右手坐标系** 见《WebGL 编程指南》附录，实际上，两者都不是。
+
+WebGL 的坐标系和 canvas 绘图区的坐标系不同，需要将前者映射到后者，默认情况下对应关系如下：
+
+- canvas 中心点(0.0, 0.0, 0.0);
+- canvas 的上边缘和下边缘(-1.0, 0.0, 0.0) 和 (1.0, 0.0, 0.0);
+- canvas 的左边缘和右边缘(0.0, -1.0, 0.0) 和 (0.0, 1.0, 0.0)。
+
+<img src="https://raw.githubusercontent.com/AlvinMi/2019-Pic/master/2019/20190411225455.png"/>
+
+### 着色器
+
+着色器(shader)是 OpenGL 中的另一个概念。WebGL 中有两种：
+
+- 1.顶点着色器，用于将 3D 顶点转换为需要渲染的 2D 点；
+- 2.片段(或像素)着色器，用于准确计算要绘制的每个像素的颜色。
+
+不过着色器的独特之处在于不是用 JavaScript 写的，而是用 GLSL(OpenGL Shading Language)，与 C 和 JavaScript 语言不同。
+
+为着色器传递数据的方式有两种属性：
+
+- 1.Attribute，通过 Attribute 可以向顶点着色器中传入顶点信息；
+- 2.Uniform，通过 Uniform 可以想任何着色器传入常量值。
+
+着色器程序，可以写在自定义 script 标签里，因为浏览器不能理解 GLSL，那么就要准备好字符串形式的 GLSL 程序。
+
+有了 字符串形式的 GLSL 程序后，就是创建着色器对象 [gl.createShader()](https://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext/createShader), 传入要创建的着色器类型 ()。
+
+**着色器在 WebGL 中的地位**
+
+着色器是 WebGL 的一项重要机制，它会贯穿全文。
+
+着色器是以为字符串的形式嵌入在 JavaScript 文件中。
+
+- 顶点着色器(Vertex Shader)，描述顶点特性(如位置、颜色)，顶点指二位或三维空间的一个点(端点或交点)；
+- 片元着色器(Fragment Shader)，进行逐片元处理过程(如光照)，片元 WebGL 术语，理解为像素(图像的单元)。
+
+如下显示了程序的执行流程, 用 sketchboard 画的比较简陋：
+
+<img src="https://raw.githubusercontent.com/AlvinMi/2019-Pic/master/2019/20190408033142.jpg"/>
+
+图中的 WebGL 系统比较片面，或许应该是这个样子？
+
+箭头上的文字表示 API，箭头方向大致表现了数据的流动方向。
+
+<img src="https://raw.githubusercontent.com/AlvinMi/2019-Pic/master/2019/20190424002431.png"/>
+
+后面再继续学习吧，最基本的概念还没有搞定呢，还有很多。例如纹理、光照、光栅化，数学矩阵、矩阵变换等等。
